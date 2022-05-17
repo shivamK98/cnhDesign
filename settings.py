@@ -4,6 +4,8 @@ from hospital import hospital
 from ambulance import ambulance
 from customer import customer
 from testimonial import testimonial
+from healthPlan import healthPlan
+from order import order
 
 # setting the link for DB
 MONGO_HOST = 'localhost'
@@ -22,5 +24,7 @@ DOMAIN = {
     'hospital': hospital,
     'ambulance': ambulance,
     'customer': customer,
-    'testimonial': testimonial
+    'testimonial': testimonial,
+    'healthPlan': healthPlan,
+    'order': order
 }

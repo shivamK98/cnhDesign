@@ -7,6 +7,18 @@ testimonial={
         'field': 'customerId'
     },
 
+    # # get request for '/testimonial/<doctorId>
+    # 'additional_lookup': {
+    #     'url': 'regex("[\w]+")',
+    #     'field': 'doctorId'
+    # },
+
+    # # get request for '/testimonial/<hospitalId>
+    # 'additional_lookup': {
+    #     'url': 'regex("[\w]+")',
+    #     'field': 'hospitalId'
+    # },
+
     # override global cache-control directives for this resource.
     'cache_control': 'max-age=10,must-revalidate',
     'cache_expires': 10,
