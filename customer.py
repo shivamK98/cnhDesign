@@ -3,7 +3,7 @@ customer={
 
     # get request for '/customer/<contactNo>
     'additional_lookup': {
-        'url': 'regex("[\w]+")',
+        'url': 'regex("[0-9]+")',
         'field': 'contactNo'
     },
 

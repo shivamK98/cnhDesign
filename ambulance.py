@@ -3,7 +3,7 @@ ambulance={
 
     # get request for '/ambulance/<vehicleNumber>
     'additional_lookup': {
-        'url': 'regex("[\w]+")',
+        'url': 'regex("[a-zA-Z0-9- ]+")',
         'field': 'vehicleNumber'
     },
 

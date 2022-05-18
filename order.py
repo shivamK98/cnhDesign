@@ -13,7 +13,7 @@ order={
 
     'schema':{
         'customerId': {
-            'type': 'string',
+            'type': 'objectid',
             'required': True,
             'unique': True,
         },
@@ -22,18 +22,21 @@ order={
         # }
 
         'plan':{
-            'type': 'dict',
+            'type': 'list',
             'schema': {
-                'planId': {
-                    'type' : 'string',
-                    'required' : True,
-                    'unique': True 
+                'type': 'dict',
+                'schema': {
+                    'planId': {
+                        'type' : 'objectid',
+                        'required' : True,
+                        'unique': True 
+                    },
+                    'price': {
+                        'type': 'float',
+                        'required': True
+                    }
                 },
-                'price': {
-                    'type': 'string',
-                    'required': True
-                }
-            },
+            }
         }
     }
 }

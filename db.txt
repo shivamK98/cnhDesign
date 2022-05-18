@@ -1,0 +1,79 @@
+# ambulance json
+{
+    "driverName":"Mukesh Rana",
+    "vehicleNumber":"BR-2398",
+    "contactNo":"9178654815",
+    "availability":1
+}
+
+
+
+# customer json
+{
+    "name":"Shivam",
+    "email":"abc@a.com",
+    "contactNo":"9445626574",
+    "address":{
+        "line1":"xyz",
+        "city":"Patna",
+        "state":"Bihar",
+        "pincode":"800005"
+        
+    }
+}
+
+# hospital json
+{
+    "name":"Sum hospital",
+    "contactNo":"987462341",
+    "noBed":45,
+    "noIcu":12,
+    "address":{
+        "line1":"xyz",
+        "city":"Patna",
+        "state":"Bihar",
+        "pincode":"800005"
+    },
+    "rating":4.5
+}
+
+# healthPlan json
+{
+    "title":"Ace",
+    "price":"5600",
+    "description":"Free health screenig"
+}
+
+
+# order json
+{
+    "customerId":"62833ca06c60d7f1aedf3d97",
+    "plan":[{
+        "planId":"6283a2787c9f118b9a339501",
+        "price":"125"
+    }]
+}
+
+# login json
+{
+    "role":"Doctor",
+    "userId":"62849b5598a36f88f0cc2aa1",
+    "email":"a@a.com",
+    "password":"hdjd761"
+}
+
+# doctor json
+{
+    "name": "Dr. Rakesh",
+    "contactNo": "9135648942",
+    "rating": 2.4,
+    "specialization": "Neurologist",
+    "degree": "MBBS"
+}
+
+{
+    "name": "Dr. xyz",
+    "contactNo": "9135128942",
+    "specialization": "Surgeon",
+    "degree": "MBBS"
+}
